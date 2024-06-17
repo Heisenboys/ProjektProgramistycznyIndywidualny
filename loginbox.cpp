@@ -13,7 +13,7 @@ LoginBox::LoginBox(QWidget *parent)
 
 
     dbl=QSqlDatabase::addDatabase("QSQLITE");
-    dbl.setDatabaseName("C:/Users/karow/Documents/bibt/biblioteka.db");
+    dbl.setDatabaseName("root/biblioteka.db");
 
 
 
